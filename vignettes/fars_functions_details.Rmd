@@ -1,0 +1,28 @@
+---
+title: "Fars Functions Details"
+author: "Ivan Lazarevic"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >d
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Vignette Info
+
+US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
+
+## How to use it
+
+Get package from GitHub.
+
+
+
