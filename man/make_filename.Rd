@@ -15,7 +15,3 @@ string
 \description{
 If year parameter can't be converted to integer error will be thrown.
 }
-\examples{
-make_filename(2018)
-make_filename('2018')
-}

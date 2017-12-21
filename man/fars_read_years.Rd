@@ -17,8 +17,3 @@ It will add year variable for all requested years data, and return a list.
 In case that there's no data file for a year, warrning will be returned.
 Data files has to be in the same directory as this script.
 }
-\examples{
-fars_read_years(2013)
-fars_read_years(c('2013', 2014))
-fars_read_years(c('2013', 2018, 2019))
-}

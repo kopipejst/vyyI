@@ -20,6 +20,3 @@ If there's no accidents in state for year message will be returned
 Otherwise map of state will accident locations will be created.
 All locations has to be within boundaries.
 }
-\examples{
-fars_map_state(1, 2013)
-}

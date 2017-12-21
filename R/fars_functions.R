@@ -7,8 +7,6 @@
 #'
 #' @param filename path to a data file
 #' @return data.frame
-#' @examples
-#' fars_read('data/accident_2013.csv.bz2')
 #' @export
 fars_read <- function(filename) {
         if(!file.exists(filename))
@@ -25,9 +23,6 @@ fars_read <- function(filename) {
 #'
 #' @param year in four digits
 #' @return string
-#' @examples
-#' make_filename(2018)
-#' make_filename('2018')
 #' @export
 make_filename <- function(year) {
         year <- as.integer(year)
@@ -43,10 +38,6 @@ make_filename <- function(year) {
 #' @param years a vector of years
 #' @return list
 #' @import dplyr
-#' @examples
-#' fars_read_years(2013)
-#' fars_read_years(c('2013', 2014))
-#' fars_read_years(c('2013', 2018, 2019))
 #' @export
 fars_read_years <- function(years) {
         lapply(years, function(year) {
@@ -73,8 +64,6 @@ fars_read_years <- function(years) {
 #' @return data.frame
 #' @import dplyr
 #' @import tidyr
-#' @examples
-#' fars_summarize_years(c('2013', 2014, 2015, 2018))
 #' @export
 fars_summarize_years <- function(years) {
         dat_list <- fars_read_years(years)
@@ -96,8 +85,6 @@ fars_summarize_years <- function(years) {
 #' @return plot chart
 #' @import dplyr
 #' @import maps
-#' @examples
-#' fars_map_state(1, 2013)
 #' @export
 fars_map_state <- function(state.num, year) {
         filename <- make_filename(year)

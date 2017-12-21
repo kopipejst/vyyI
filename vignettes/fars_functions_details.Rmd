@@ -3,8 +3,8 @@ title: "Fars Functions Details"
 author: "Ivan Lazarevic"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
-vignette: >d
-  %\VignetteIndexEntry{Vignette Title}
+vignette: >
+  %\VignetteIndexEntry{fars_functions_details}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
