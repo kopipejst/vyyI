@@ -8,8 +8,6 @@ fars_map_state(state.num, year)
 }
 \arguments{
 \item{state.num}{integer}
-
-\item{year}{in four digits}
 }
 \value{
 plot chart
@@ -19,4 +17,9 @@ If state number doesn't exist error will be thrown.
 If there's no accidents in state for year message will be returned
 Otherwise map of state will accident locations will be created.
 All locations has to be within boundaries.
+}
+\examples{
+\dontrun{
+fars_map_state(1, 2013)
+}
 }

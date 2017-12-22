@@ -6,12 +6,15 @@
 \usage{
 make_filename(year)
 }
-\arguments{
-\item{year}{in four digits}
-}
 \value{
 string
 }
 \description{
 If year parameter can't be converted to integer error will be thrown.
+}
+\examples{
+\dontrun{
+make_filename(2018)
+make_filename('2018')
+}
 }

@@ -18,3 +18,8 @@ years and months will be returned as data.frame
 In case that data from one of years doesn't exist warning will be returned
 for that year only.
 }
+\examples{
+\dontrun{
+fars_summarize_years(c('2013', 2014, 2015, 2018))
+}
+}

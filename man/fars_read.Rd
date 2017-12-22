@@ -18,3 +18,8 @@ data as data.frame
 In case that file doesn't exist it will return error. If file can't be
 parsed as csv error will be thrown.
 }
+\examples{
+\dontrun{
+fars_read('data/accident_2013.csv.bz2')
+}
+}
