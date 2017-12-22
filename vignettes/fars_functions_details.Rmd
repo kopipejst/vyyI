@@ -18,11 +18,26 @@ knitr::opts_chunk$set(
 
 ## Vignette Info
 
-US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
+US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
+With functions from this packages you can summarize and plot data on map.
 
 ## How to use it
 
-Get package from GitHub.
+Install package from GitHub.
 
+```
+install.packages("devtools")
+devtools::install_github("kopipejst/vyyl")
+```
 
+## Functions
 
+There are four functions in this package
+
+```fars_read``` reading and parsing csv file
+
+```fars_read_years``` returns list of month/year
+
+```fars_summarize_years``` is returning the number of accidents by month for a year
+
+```far_maps_state``` is showing map with coordinates of all accidents for year and state 

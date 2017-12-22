@@ -23,7 +23,6 @@ fars_read <- function(filename) {
 #'
 #' @param year in four digits
 #' @return string
-#' @export
 make_filename <- function(year) {
         year <- as.integer(year)
         sprintf("accident_%d.csv.bz2", year)
