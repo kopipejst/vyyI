@@ -45,7 +45,7 @@ make_filename <- function(year) {
 #'
 #' @param years a vector of years
 #' @return list
-#' @importFrom dplyr
+#' @import dplyr
 #' @examples
 #' \dontrun{
 #' fars_read_years(2013)
@@ -76,8 +76,8 @@ fars_read_years <- function(years) {
 #'
 #' @param years a vector of years
 #' @return data.frame
-#' @importFrom dplyr
-#' @importFrom tidyr
+#' @import dplyr
+#' @import tidyr
 #' @examples
 #' \dontrun{
 #' fars_summarize_years(c('2013', 2014, 2015, 2018))
@@ -101,8 +101,8 @@ fars_summarize_years <- function(years) {
 #' @param state.num integer
 #' @param year
 #' @return plot chart
-#' @importFrom dplyr
-#' @importFrom maps
+#' @import dplyr
+#' @import maps
 #' @examples
 #' \dontrun{
 #' fars_map_state(1, 2013)
