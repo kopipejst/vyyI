@@ -8,6 +8,8 @@ fars_map_state(state.num, year)
 }
 \arguments{
 \item{state.num}{integer}
+
+\item{year}{in four digits}
 }
 \value{
 plot chart

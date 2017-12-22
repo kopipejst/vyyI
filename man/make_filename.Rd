@@ -6,6 +6,9 @@
 \usage{
 make_filename(year)
 }
+\arguments{
+\item{year}{in four digits}
+}
 \value{
 string
 }

@@ -25,7 +25,7 @@ fars_read <- function(filename) {
 #'
 #' If year parameter can't be converted to integer error will be thrown.
 #'
-#' @param year
+#' @param year in four digits
 #' @return string
 #' @examples
 #' \dontrun{
@@ -99,7 +99,7 @@ fars_summarize_years <- function(years) {
 #' All locations has to be within boundaries.
 #'
 #' @param state.num integer
-#' @param year
+#' @param year in four digits
 #' @return plot chart
 #' @import dplyr
 #' @import maps
